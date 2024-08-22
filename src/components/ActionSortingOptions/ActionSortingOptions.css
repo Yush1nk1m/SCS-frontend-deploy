@@ -1,0 +1,25 @@
+.action-sorting-options {
+  display: flex;
+  align-items: center;
+}
+
+.action-sorting-options select {
+  width: 180px;
+  padding: 10px;
+  border: 1px solid #4c4cff;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.action-sorting-options select:hover {
+  background-color: #4c4cff;
+  color: white;
+}
+
+.action-sorting-options select option {
+  padding: 10px;
+}
